@@ -5,7 +5,7 @@ import { addGalleryReservation, moveGalleryElevator, removeGalleryReservationObj
 import { initLocations, removeLocationBox, updateLocation, updateLocationColor } from "./locations"
 import { cancelUserReservation, confirmReservation, setUserReservation, updateLocationReservations } from "./reservation"
 
-export let serverRoom:string = "angzaar_plaza"
+export let serverRoom:string = "angzaar_plaza_reservations"
 export let localUserId: string
 export let localUser:any
 export let data:any

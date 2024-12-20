@@ -3,7 +3,7 @@
   "runtimeVersion": "7",
   "isPortableExperience": true,
   "display": {
-    "title": "Angzaar Plaza Reservations",
+    "title": "reservation-px",
     "description": "",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
@@ -430,5 +430,6 @@
   ],
   "worldConfiguration": {
     "name": "LANDRealEstate.dcl.eth"
-  }
+  },
+  "name": "reservation-px"
 }
