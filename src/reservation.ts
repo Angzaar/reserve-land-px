@@ -57,7 +57,13 @@ export function confirmReservation(info:any){
         }
 
         locationsMap.forEach((location:any)=>{
-            PointerEvents.deleteFrom(location.entity)
+            try{
+                PointerEvents.deleteFrom(location.entity)
+            }
+            catch(e){
+                console.log('error deleting pointer event from entity')
+            }
+            
         })
 
         userReservation = info.reservation
